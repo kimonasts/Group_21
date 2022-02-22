@@ -1,0 +1,9 @@
+.terms-and-conditions{
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+
+.terms-and-conditions .form-check-label{
+    padding-left: 17px
+}
