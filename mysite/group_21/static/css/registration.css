@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(27, 177, 84);
+}
+
+
+input[type=checkbox]
+{
+    margin-right:300px
+}
+
+
+@media only screen and (min-width: 319px) and (max-width: 375px){
+    input[type=checkbox]{
+        margin-right:220px
+    }
+
+    .form-check-label{
+        text-align: center;
+        margin-left: 3px;
+    }
+    
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    input[type=checkbox]{
+        margin-right:260px
+    }
+
+    .form-check-label{
+        text-align: center;
+        margin-left: 3px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 375px) {
+    input[type=checkbox]{
+        margin-right:240px
+    }
+
+    .form-check-label{
+        text-align: center;
+        margin-left: 3px;
+    }
+    
+}
+
+@media only screen and (min-width: 425px) {
+    input[type=checkbox]{
+        margin-right:290px
+    }
+
+    .form-check-label{
+        text-align: center;
+        margin-left: 3px;
+    }
+    
+}
