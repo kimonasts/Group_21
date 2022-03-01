@@ -26,3 +26,12 @@ def username_sign_in(request):
 
 def registration(request):
     return render(request, 'group_21/registration.html')
+
+def about(request):
+    return render(request, 'group_21/about.html')
+
+def leaderboard(request):
+    return render(request, 'group_21/leaderboard.html')
+
+def settings(request):
+    return render(request, 'group_21/settings.html')
